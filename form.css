@@ -296,4 +296,22 @@ caption {
   margin: 50px;
 }
 
+.container form button{
+    background-color: #551a8b;
+    border-color: #551a8b;
+}
+
+.container form button:hover{
+    background-color: purple;
+    border-color: #551a8b;
+}
+
+.btn.btn-primary::before{
+    margin-right: 10px;
+}
+
+.spinner-border{
+    margin-left: 15px !important;
+}
+
 
